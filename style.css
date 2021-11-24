@@ -1,0 +1,158 @@
+/***** STARTER CODE - DO NOT CHANGE *****/
+/* html{
+    scroll-behavior: smooth;
+} */
+
+body{
+  background: #d4eff8;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+#main{
+  text-align: center;
+  font-size: 40px;
+  overflow: hidden;
+  width: 100%;
+
+}
+p{
+  font-size: 15px;;
+}
+h2{
+  font-family: 'Henny Penny', serif;
+  color: #e75480;
+  padding: 20px;
+}
+h3{
+  font-size: 30px;
+  padding: 20px;
+}
+a:link {
+  text-decoration: none;
+}
+#recipePage{
+  color: #e9658d;
+  text-decoration: underline;
+  
+}
+#home{
+  color: #e9658d;
+  text-decoration: underline;
+}
+#contact{
+  color:#e75480;
+  text-decoration: underline;
+}
+
+h1{
+  font-family: 'Henny Penny', serif;
+  font-size: 20px;
+  text-align: center;
+  color: #e75480;
+}
+
+
+
+nav{
+  padding-top: 25px;  
+  padding-right: 25px;   
+  text-align: right;   
+  color:black;
+}
+#recipes{
+  padding: 20px;
+  width: 100%;
+}
+#textAbout{
+  padding: 20px;
+}
+#aboutPage{
+  padding: 20px;
+  width: 100%;
+
+}
+.Container{
+  background: #d4eff8;
+  
+}
+.RecipesContainer{
+  
+  background: #d4eff8;
+  display: grid;
+  text-align: center;
+  grid-column: 1;
+}
+.AboutContainer{
+  display: grid;
+  text-align: center;
+  grid-column: 1;
+}
+footer{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.contactContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+@media screen and (min-width: 760px){
+  h1{
+    font-family: 'Henny Penny', serif;
+    font-size: 100px;
+    text-align: center;
+
+  }
+  .RecipesContainer{
+    grid-template-columns: 350px 350px;
+    justify-content: center;
+    grid-template-rows: 450px 450px 450px;
+  }
+  #recipes{
+    padding: 30px;
+  }
+  .AboutContainer{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 350px 350px;
+  }
+  p{
+    font-size: 22px;
+  }
+  .contactContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  .pricing{
+    flex-wrap:wrap;
+    min-height: 475px;
+    align-items: center;
+    display: flex;
+    vertical-align: middle;
+    text-align: center; 
+    flex-direction: row;
+  }
+  h2{
+    font-size: 70px;
+  }
+  button{
+    border-radius: 8px;
+    font-size: 25px;
+    background-color: #e9658d;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .contactimg{
+    width: 45%;
+    padding: 20px;
+  }
+  nav ul > li{
+    display:inline-block;
+    padding: 20px;
+  }
+
+}
